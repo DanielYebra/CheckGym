@@ -12,6 +12,10 @@
 		B9D964CE1F3F9A4E00924BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D964CC1F3F9A4E00924BDD /* Main.storyboard */; };
 		B9D964D01F3F9A4E00924BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D964CF1F3F9A4E00924BDD /* Assets.xcassets */; };
 		B9D964D31F3F9A4E00924BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D964D11F3F9A4E00924BDD /* LaunchScreen.storyboard */; };
+		B9D964DC1F3FA98600924BDD /* fondoGym.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D964DB1F3FA98600924BDD /* fondoGym.png */; };
+		B9D964DE1F3FAD5500924BDD /* CheckGym.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D964DD1F3FAD5500924BDD /* CheckGym.png */; };
+		B9D964E01F3FAF1400924BDD /* ButtonCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D964DF1F3FAF1400924BDD /* ButtonCheck.png */; };
+		B9D964E21F3FB17D00924BDD /* Oval.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D964E11F3FB17D00924BDD /* Oval.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		B9D964CF1F3F9A4E00924BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9D964D21F3F9A4E00924BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9D964D41F3F9A4E00924BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9D964DB1F3FA98600924BDD /* fondoGym.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fondoGym.png; path = CheckGym/Resources/fondoGym.png; sourceTree = "<group>"; };
+		B9D964DD1F3FAD5500924BDD /* CheckGym.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckGym.png; sourceTree = "<group>"; };
+		B9D964DF1F3FAF1400924BDD /* ButtonCheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonCheck.png; sourceTree = "<group>"; };
+		B9D964E11F3FB17D00924BDD /* Oval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oval.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 		B9D964BC1F3F9A4E00924BDD = {
 			isa = PBXGroup;
 			children = (
+				B9D964DA1F3FA94500924BDD /* Resources */,
 				B9D964C71F3F9A4E00924BDD /* CheckGym */,
 				B9D964C61F3F9A4E00924BDD /* Products */,
 			);
@@ -62,6 +71,17 @@
 				B9D964D41F3F9A4E00924BDD /* Info.plist */,
 			);
 			path = CheckGym;
+			sourceTree = "<group>";
+		};
+		B9D964DA1F3FA94500924BDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9D964E11F3FB17D00924BDD /* Oval.png */,
+				B9D964DD1F3FAD5500924BDD /* CheckGym.png */,
+				B9D964DB1F3FA98600924BDD /* fondoGym.png */,
+				B9D964DF1F3FAF1400924BDD /* ButtonCheck.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +144,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D964DE1F3FAD5500924BDD /* CheckGym.png in Resources */,
 				B9D964D31F3F9A4E00924BDD /* LaunchScreen.storyboard in Resources */,
+				B9D964E01F3FAF1400924BDD /* ButtonCheck.png in Resources */,
 				B9D964D01F3F9A4E00924BDD /* Assets.xcassets in Resources */,
+				B9D964E21F3FB17D00924BDD /* Oval.png in Resources */,
+				B9D964DC1F3FA98600924BDD /* fondoGym.png in Resources */,
 				B9D964CE1F3F9A4E00924BDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,26 +1,134 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="imQ-7e-IR3">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CheckGym" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondoGym.png" translatesAutoresizingMaskIntoConstraints="NO" id="j0O-dr-0Mr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aE3-YD-qdk">
+                                <rect key="frame" x="148" y="111" width="119" height="113"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="FpA-FN-Y7M"/>
+                                    <constraint firstAttribute="height" constant="113" id="Kqv-hi-2YG"/>
+                                </constraints>
+                                <state key="normal" image="ButtonCheck.png"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckGym.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dvl-0u-tOZ">
+                                <rect key="frame" x="106" y="34" width="202" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="JCN-9D-XKn"/>
+                                    <constraint firstAttribute="width" constant="202" id="vP4-Sc-zSW"/>
+                                </constraints>
+                            </imageView>
+                            <datePicker clearsContextBeforeDrawing="NO" contentMode="scaleToFill" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="30" translatesAutoresizingMaskIntoConstraints="NO" id="M4s-1z-98j">
+                                <rect key="frame" x="210" y="242" width="204" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="bg2-FX-ChP"/>
+                                    <constraint firstAttribute="width" constant="204" id="eU8-tY-2db"/>
+                                </constraints>
+                                <date key="date" timeIntervalSinceReferenceDate="524268407.11341798">
+                                    <!--2017-08-12 22:06:47 +0000-->
+                                </date>
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="504961200">
+                                    <!--2017-01-01 11:00:00 +0000-->
+                                </date>
+                                <locale key="locale" localeIdentifier="es_ES"/>
+                            </datePicker>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YaK-zr-lw1">
+                                <rect key="frame" x="0.0" y="242" width="204" height="100"/>
+                                <subviews>
+                                    <pickerView alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4lA-FD-YLy">
+                                        <rect key="frame" x="0.0" y="0.0" width="204" height="100"/>
+                                        <color key="backgroundColor" red="0.34596985578536987" green="0.81240898370742798" blue="0.84760338068008423" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="204" id="2Xd-tY-724"/>
+                                            <constraint firstAttribute="height" constant="100" id="ShH-MB-RtS"/>
+                                        </constraints>
+                                    </pickerView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Probamos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DL0-W5-IdL">
+                                <rect key="frame" x="135" y="526.66666666666652" width="143.33333333333331" height="38.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="j0O-dr-0Mr" secondAttribute="bottom" id="1FL-Zk-peT"/>
+                            <constraint firstItem="aE3-YD-qdk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Tu-95-5NH"/>
+                            <constraint firstItem="YaK-zr-lw1" firstAttribute="leading" secondItem="j0O-dr-0Mr" secondAttribute="leading" id="ENR-bc-knj"/>
+                            <constraint firstAttribute="trailing" secondItem="M4s-1z-98j" secondAttribute="trailing" id="Iez-a6-Af9"/>
+                            <constraint firstItem="Dvl-0u-tOZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ijy-NV-RUw"/>
+                            <constraint firstItem="M4s-1z-98j" firstAttribute="top" secondItem="aE3-YD-qdk" secondAttribute="bottom" constant="18" id="JY5-Zx-ava"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DL0-W5-IdL" secondAttribute="bottom" constant="122" id="Lyt-dN-9u0"/>
+                            <constraint firstItem="Dvl-0u-tOZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="14" id="PR3-hR-Lqc"/>
+                            <constraint firstItem="j0O-dr-0Mr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Una-nX-vLr"/>
+                            <constraint firstItem="DL0-W5-IdL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c10-yV-6RA"/>
+                            <constraint firstItem="YaK-zr-lw1" firstAttribute="top" secondItem="M4s-1z-98j" secondAttribute="top" id="cwm-TA-dyK"/>
+                            <constraint firstAttribute="trailing" secondItem="j0O-dr-0Mr" secondAttribute="trailing" id="iBb-uC-XTA"/>
+                            <constraint firstItem="j0O-dr-0Mr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="meE-xi-b7s"/>
+                            <constraint firstItem="aE3-YD-qdk" firstAttribute="top" secondItem="Dvl-0u-tOZ" secondAttribute="bottom" constant="16" id="tKJ-40-6kd"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="sEI-nC-f2f"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
+                    <connections>
+                        <outlet property="buttonCheck" destination="aE3-YD-qdk" id="mlZ-Ot-8PQ"/>
+                        <outlet property="labelPrueba" destination="DL0-W5-IdL" id="kn4-6S-gEt"/>
+                        <outlet property="pickerDate" destination="M4s-1z-98j" id="rEP-dQ-8X5"/>
+                        <outlet property="pickerKind" destination="4lA-FD-YLy" id="oaE-Xg-JpL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="971.01449275362324" y="37.5"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="6VC-jv-owS">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="imQ-7e-IR3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" id="hqi-HH-Ekh">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="xE8-F4-uDt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kXa-wt-afu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ButtonCheck.png" width="211" height="195"/>
+        <image name="CheckGym.png" width="420" height="87"/>
+        <image name="fondoGym.png" width="1242" height="2208"/>
+    </resources>
 </document>
