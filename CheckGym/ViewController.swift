@@ -23,7 +23,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         pickerDate.backgroundColor = UIColor.init(red: 0.388, green: 0.835, blue:0.866, alpha: 0.85)
-        labelPrueba.textColor = UIColor.init(red: 88, green: 207, blue: 216, alpha: 0.5)
     }
     
 

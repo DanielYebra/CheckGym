@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Training_Checked" representedClassName="Training_Checked" syncable="YES" codeGenerationType="class">
+        <attribute name="absTraining" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="cardioTraining" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="dateTraining" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="kindTraining" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spaTraining" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Training_Checked" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>
