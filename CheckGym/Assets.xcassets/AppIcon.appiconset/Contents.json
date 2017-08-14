@@ -11,15 +11,13 @@
       "scale" : "3x"
     },
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "icon3xCheckGym-3.png",
+      "size" : "29x29",
       "scale" : "2x"
     },
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "icon3xCheckGym-2.png",
+      "size" : "29x29",
       "scale" : "3x"
     },
     {
@@ -33,9 +31,8 @@
       "scale" : "3x"
     },
     {
+      "idiom" : "iphone",
       "size" : "60x60",
-      "idiom" : "iphone",
-      "filename" : "icon3xCheckGym-1.png",
       "scale" : "2x"
     },
     {

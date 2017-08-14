@@ -57,12 +57,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B95FEB8D1F410A82002B3943 /* buttonToogle */ = {
+			isa = PBXGroup;
+			children = (
+				B9D964EE1F3FD2C200924BDD /* ABS.png */,
+				B9D964EF1F3FD2C200924BDD /* ABSSelect.png */,
+				B9D964F01F3FD2C200924BDD /* CARDIO.png */,
+				B9D964F11F3FD2C200924BDD /* CARDIOSelect.png */,
+				B9D964F21F3FD2C200924BDD /* SPA.png */,
+				B9D964F31F3FD2C200924BDD /* SPASelect.png */,
+			);
+			name = buttonToogle;
+			sourceTree = "<group>";
+		};
 		B9D964BC1F3F9A4E00924BDD = {
 			isa = PBXGroup;
 			children = (
-				B9D964DA1F3FA94500924BDD /* Resources */,
 				B9D964C71F3F9A4E00924BDD /* CheckGym */,
 				B9D964C61F3F9A4E00924BDD /* Products */,
+				B9D964DA1F3FA94500924BDD /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,12 +108,7 @@
 				B9D964E71F3FCDB300924BDD /* CheckGym.png */,
 				B9D964E91F3FCDB300924BDD /* Oval.png */,
 				B9D964DB1F3FA98600924BDD /* fondoGym.png */,
-				B9D964EE1F3FD2C200924BDD /* ABS.png */,
-				B9D964EF1F3FD2C200924BDD /* ABSSelect.png */,
-				B9D964F01F3FD2C200924BDD /* CARDIO.png */,
-				B9D964F11F3FD2C200924BDD /* CARDIOSelect.png */,
-				B9D964F21F3FD2C200924BDD /* SPA.png */,
-				B9D964F31F3FD2C200924BDD /* SPASelect.png */,
+				B95FEB8D1F410A82002B3943 /* buttonToogle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
